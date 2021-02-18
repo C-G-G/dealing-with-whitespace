@@ -13,14 +13,16 @@ html {
 }
 
 body {
-  margin: 0 auto;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin: 0 400px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-article, article header {
+article {
+  border-bottom: 2px solid #999;
+}
+
+article header {
   border-bottom: 2px solid #999;
 }
 
@@ -34,7 +36,7 @@ article p {
   color: #555;
 }
 
-header p {
+article header p {
   margin-top: 0;
   font-style: italic;
 }
